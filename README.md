@@ -25,12 +25,9 @@ Firmware open-source que transforma piezos e sensores em sinais MIDI profissiona
 - 🔄 **Inverte botões** e reset de módulo pelo menu
 - 🔀 **InvSensor** — suporte a sensor TCRT5000 manual ou módulo LM393 pronto
 
-## 🎮 Compatível com
-DAWs: Ableton, Reaper, FL Studio, Pro Tools, ASIO/ASIO4ALL
-VSTs: Superior Drummer, EZdrummer, Addictive Drums e qualquer VST MIDI
-
-## 🛠️ Hardware
-Arduino Mega 2560 · Piezos · Sensor TCRT5000 · Display LCD · Encoder rotativo
-MIT License — livre para usar, modificar e distribuir.
-
-Desenvolvido por **Joanaldo Jhon Leonez de Melo** · © 2026
+Código completo abaixo Com manual no link
+ https://www.mediafire.com/folder/are76n6h5zycm/CODIGO+JDRUMS+5.0
+Link só do manual ilustrado completo
+ https://www.mediafire.com/file/22mxabapw3wxgjr/MANUAL_JDRUMS_5.0_ILUSTRADO_COMPRETO.html/file
+Compartilhe resumo do código
+https://www.mediafire.com/file/wpswfnnq6tzfo0d/Jdrums_5.0__Compartilhe.html/file
