@@ -1,7 +1,6 @@
 # 🥁 J-DRUMS v5.0 — Controlador MIDI de Bateria Eletrônica para Arduino Mega 2560
-
+electronic-drums drum-module Arduino 2560 midi
 Firmware open-source que transforma piezos e sensores em sinais MIDI profissionais, com menu completo em display LCD.
-
 ## ✅ Recursos
 
 - 🎛️ **16 Pads Analógicos (A0–A15)** — nota MIDI, threshold, gain, curva de velocity e crosstalk configuráveis individualmente
