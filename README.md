@@ -1,30 +1,65 @@
-# 🥁 J-DRUMS v5.0 — Controlador MIDI de Bateria Eletrônica para Arduino Mega 2560
-electronic-drums drum-module Arduino 2560 midi
-Firmware open-source que transforma piezos e sensores em sinais MIDI profissionais, com menu completo em display LCD.
-## ✅ Recursos
+# 🥁 J-DRUMS v5.0 — Arduino Mega 2560 MIDI Drum Controller
 
-- 🎛️ **16 Pads Analógicos (A0–A15)** — nota MIDI, threshold, gain, curva de velocity e crosstalk configuráveis individualmente
-- 🎚️ **Hi-Hat Inteligente (TCRT5000)** — sensor óptico com auto-calibração em 8 segundos, suporte a modo Normal e Invertido (InvSensor)
-- 🥁 **Rimshot em 2 modos** — Rimshot completo (aro + caixa) e Rimshot de força (velocity 127 na caixa)
-- 🎵 **Tri-Zone e Dual Pad** — Chimbal (3 zonas), Ride (3 zonas) e 2× Crash (2 zonas cada) com 1 piezo por prato
-- ⚡ **Latch temporal 80ms** — compatível com membranas caseiras de fita de cobre, EVA ou metal
-- 🔌 **7 Pads Digitais (D33–D45)** + expansão via Pro Micro (4 pads) ou Leonardo (6 pads) por SysEx
-- 📡 **Saída MIDI Dupla** — USB e Serial TX1 simultâneos (PC + módulo de som ao mesmo tempo)
-- 🎹 **4 Mapas MIDI prontos** — Persona (editável), SupEzd1, SupEzd2 e Addictive Drums
-- 💾 **3 Slots de Preset na EEPROM** — salva e restaura configurações completas do kit
-- 🎯 **XCancel CrossTalk** — elimina ghost notes com até 16 pares Source→Target configuráveis
-- ⚡ **Ajuste Rápido de Pad** — segure encoder 3s, bata no pad, acessa diretamente o ajuste
-- 🔊 **Monitor MIDI em tempo real** — porta, nota e velocity no LCD
-- 👁️ **Monitor Hi-Hat** — barra visual de 16 posições no LCD
-- 🔄 **7 Curvas de Velocity por pad** — Linear, Soft1/2/3, Hard1/2 e Fixed
-- 🎵 **4 Chokes de Pratos** (pinos D47–D53) — contato metálico direto, sem componentes extras
-- 🔕 **Note OFF implementado corretamente** — notas não ficam presas no VST
-- 🎛️ **ID MIDI editável** — personalize o nome do dispositivo no sistema operacional e DAW
-- 💡 **Menu completo no LCD** — navegação por encoder com luz ajustável
-- 🔄 **Inverte botões** e reset de módulo pelo menu
-- 🔀 **InvSensor** — suporte a sensor TCRT5000 manual ou módulo LM393 pronto
+**Open-source firmware** para bateria eletrônica DIY / for DIY electronic drums.  
+Transforma piezos e sensores em sinais MIDI profissionais — converts piezo sensors into professional MIDI signals.  
+Menu completo em display LCD · Full LCD menu · Auto-calibration · Multi-zone cymbals.
 
-Código completo com código de limpeza do Arduino suporte Pro Micro e Leonado Com manual ilustrado completo passo a passo com resumo de cada função do código no link abaixo.
-https://www.mediafire.com/folder/are76n6h5zycm/CODIGO+JDRUMS+5.0
-Agradeço a Deus Me proporcionar esse código maravilhoso.
-Developed by **Joanaldo Jhon Leonez de Melo** · © 2026
+> 🇧🇷 Projeto brasileiro open-source — Brazilian open-source project
+
+---
+
+## ✅ Features / Recursos
+
+- 🎛️ **16 Analog Pads** — nota MIDI, threshold, gain, velocity curve e crosstalk cancel individuais
+- 🎚️ **Smart Hi-Hat (TCRT5000)** — auto-calibração em 8s / 8-second auto-calibration · Normal e Invertido (InvSensor / LM393)
+- 🥁 **Rimshot** — 2 modos: completo (rim + snare) e force rimshot (velocity 127)
+- 🎵 **Tri-Zone & Dual Pad** — Chimbal/Hi-Hat (3 zones) · Ride (3 zones) · 2× Crash (2 zones) — 1 piezo each
+- ⚡ **80ms Temporal Latch** — membranas caseiras / homemade membranes: copper tape, EVA, metal
+- 🔌 **7 Digital Pads** (D33–D45) + expansão / expansion: Pro Micro (+4) ou Leonardo (+6) via SysEx
+- 📡 **Dual MIDI Output** — USB + Serial TX1 simultâneos / simultaneous
+- 🎹 **4 MIDI Maps** — Persona (editável/customizable) · SupEzd1 · SupEzd2 · Addictive Drums
+- 💾 **3 EEPROM Preset Slots** — salva e restaura / save and restore full kit config
+- 🎯 **XCancel CrossTalk** — elimina ghost notes / eliminates ghost notes · até/up to 16 pairs
+- ⚡ **Quick Pad Adjust** — segure encoder 3s + bata no pad / hold encoder 3s + hit pad
+- 🔊 **Real-time MIDI Monitor** — porta, nota e velocity no LCD
+- 👁️ **Hi-Hat Monitor** — barra visual de 16 posições / 16-position bar on LCD
+- 🔄 **7 Velocity Curves** por pad — Linear · Soft1/2/3 · Hard1/2 · Fixed
+- 🎵 **4 Cymbal Chokes** (D47–D53) — contato metálico direto / direct metal contact
+- 🔕 **Note OFF correto** — notas não ficam presas no VST / notes never stuck in VST
+- 🎛️ **Editable MIDI Device ID** — personalize o nome no OS e DAW
+- 💡 **Full LCD Menu** — encoder + luz ajustável / adjustable backlight
+- 🔀 **InvSensor** — TCRT5000 manual ou módulo LM393 pronto / ready-made
+
+---
+
+## 🎮 Compatible with / Compatível com
+
+**DAWs:** Ableton · Reaper · FL Studio · Pro Tools · ASIO/ASIO4ALL  
+**VSTs:** Superior Drummer · EZdrummer · Addictive Drums · any MIDI VST
+
+---
+
+## 🛠️ Hardware
+
+Arduino Mega 2560 · Piezo sensors · TCRT5000 · LCD 16×2 · Rotary encoder  
+Expansão opcional / Optional expansion: Pro Micro ou Leonardo
+
+---
+
+## 📦 Download
+
+Código completo + Manual ilustrado HTML passo a passo / Full source code + illustrated HTML manual step by step.
+
+🔗 [Download — MediaFire](https://www.mediafire.com/folder/are76n6h5zycm/CODIGO+JDRUMS+5.0)
+
+---
+
+
+
+MIT License — livre para usar, modificar e distribuir / free to use, modify and distribute.
+
+---
+
+*Agradeço a Deus por me proporcionar esse projeto maravilhoso. 🙏*  
+*I thank God for inspiring this amazing project.*  
+**Developed by Joanaldo Jhon Leonez de Melo · © 2026**
