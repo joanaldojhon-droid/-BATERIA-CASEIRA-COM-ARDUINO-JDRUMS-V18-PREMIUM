@@ -27,6 +27,5 @@ Firmware open-source que transforma piezos e sensores em sinais MIDI profissiona
 
 Código completo com código de limpeza do Arduino suporte Pro Micro e Leonado Com manual ilustrado completo passo a passo com resumo de cada função do código no link abaixo.
 https://www.mediafire.com/folder/are76n6h5zycm/CODIGO+JDRUMS+5.0
-IT License — free to use, modify, and distribute.
 Agradeço a Deus Me proporcionar esse código maravilhoso.
 Developed by **Joanaldo Jhon Leonez de Melo** · © 2026
