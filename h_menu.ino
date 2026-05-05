@@ -3995,8 +3995,8 @@ void Up()
           else if(xpairRam[xcancelPar].target >= 15) xpairRam[xcancelPar].target = 255;
           else xpairRam[xcancelPar].target++;
           break;
-        case 2: // ghostVel: 0-60 (windowMs=120 fixo, não aparece)
-          if(xpairRam[xcancelPar].ghostVel >= 60) xpairRam[xcancelPar].ghostVel = 0;
+        case 2: // ghostVel: 0-100 (windowMs=120 fixo, não aparece)
+          if(xpairRam[xcancelPar].ghostVel >= 100) xpairRam[xcancelPar].ghostVel = 0;
           else xpairRam[xcancelPar].ghostVel++;
           break;
       }
@@ -4467,8 +4467,8 @@ void Down()
           else if(xpairRam[xcancelPar].target == 0) xpairRam[xcancelPar].target = 255;
           else xpairRam[xcancelPar].target--;
           break;
-        case 2: // ghostVel: 0-60 (windowMs=120 fixo, não aparece)
-          if(xpairRam[xcancelPar].ghostVel == 0) xpairRam[xcancelPar].ghostVel = 60;
+        case 2: // ghostVel: 0-100 (windowMs=120 fixo, não aparece)
+          if(xpairRam[xcancelPar].ghostVel == 0) xpairRam[xcancelPar].ghostVel = 100;
           else xpairRam[xcancelPar].ghostVel--;
           break;
       }
