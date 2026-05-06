@@ -3,7 +3,6 @@
 //=>                        Sistema de Bateria Eletrônica Arduino                          <=
 //=>                     Copyright (c) 2026 Joanaldo Jhon Leonez de Melo                   <=
 //=>                             Licensed under the MIT License.                           <=
-//=>  https://github.com/joanaldojhon-droid/-JDRUMS-5.0-COM-ARDUINO-MEGA-2560/tree/main    <=
 //=>         See LICENSE.txt file in the project root for full license information.        <=
 //=>                      DESENVOLVIDO POR JOANALDO JHON LEONEZ DE MELO                    <=
 //=>                                   Janeiro/2026                                        <=
@@ -16,7 +15,7 @@
 //=>  • Menu completo em LCD 16x2 I2C                                                      <=
 //=>  • Navegação via encoder rotativo + 2 botões                                          <=
 //=>  • Buzzer de feedback sonoro                                                          <=
-//=>  • Nomes personalizados para pads (25 nomes pré-definidos + edição livre)             <=
+//=>  • Nomes personalizados para pads (25 nomes pré-definidos )                           <=
 //=>  • Sistema de cache EEPROM (salva a cada 60s)                                         <=
 //=>  • 3 slots de backup/presets completos                                                <=
 //=>  • 4 presets VST (Persona, EZDrummer, Superior, Addictive)                            <=
@@ -124,7 +123,7 @@ const char name_11[] PROGMEM = "CRASH 2    ";
 const char name_12[] PROGMEM = "CRASH 3    ";
 const char name_13[] PROGMEM = "SURDO 2    ";
 const char name_14[] PROGMEM = "TOM 1      ";
-const char name_15[] PROGMEM = "PAD AUX    ";
+const char name_15[] PROGMEM = "PAD EFET 1 ";
 const char name_16[] PROGMEM = "CRASH 4    ";
 const char name_17[] PROGMEM = "CHINA      ";
 const char name_18[] PROGMEM = "SPLASH     ";
@@ -133,7 +132,7 @@ const char name_20[] PROGMEM = "ROTONTOM 2 ";
 const char name_21[] PROGMEM = "GOWBELL    ";
 const char name_22[] PROGMEM = "PANDEROLA  ";
 const char name_23[] PROGMEM = "CAIXA REVB ";
-const char name_24[] PROGMEM = "PAD EFEITO ";
+const char name_24[] PROGMEM = "PAD EFET 2 ";
 
 const char* const available_names[NUM_AVAILABLE_NAMES] PROGMEM = {
   name_0, name_1, name_2, name_3, name_4, name_5, name_6, name_7, name_8, name_9,
