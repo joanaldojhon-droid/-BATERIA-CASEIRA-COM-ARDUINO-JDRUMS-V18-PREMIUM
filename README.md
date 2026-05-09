@@ -17,7 +17,6 @@ Menu completo em display LCD · Full LCD menu · Auto-calibration · Multi-zone 
 - ⚡ **80ms Temporal Latch** — membranas caseiras / homemade membranes: copper tape, EVA, metal
 - 🔌 **7 Digital Pads** (D33–D45) + expansão / expansion: Pro Micro (+4) ou Leonardo (+6) via SysEx
 - 📡 **Dual MIDI Output** — USB + Serial TX1 simultâneos / simultaneous
-- 🎹 **4 MIDI Maps** — Persona (editável/customizable) · SupEzd1 · SupEzd2 · Addictive Drums
 - 💾 **3 EEPROM Preset Slots** — salva e restaura / save and restore full kit config
 - 🎯 **XCancel CrossTalk** — elimina ghost notes / eliminates ghost notes · até/up to 16 pairs
 - ⚡ **Quick Pad Adjust** — segure encoder 3s + bata no pad / hold encoder 3s + hit pad
