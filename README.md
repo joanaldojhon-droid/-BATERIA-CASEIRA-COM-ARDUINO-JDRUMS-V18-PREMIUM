@@ -1,4 +1,4 @@
-# 🥁 J-DRUMS v5.0 — Arduino Mega 2560 MIDI Drum Controller
+# 🥁 J-DRUMS v8.0.19 — Arduino Mega 2560 MIDI Drum Controller
 
 **Open-source firmware** para bateria eletrônica DIY / for DIY electronic drums.  
 Transforma piezos e sensores em sinais MIDI profissionais — converts piezo sensors into professional MIDI signals.  
