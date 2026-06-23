@@ -1,5 +1,8 @@
 # 🥁 J-DRUMS v8.0.19 — Arduino Mega 2560 MIDI Drum Controller
 
+Desmostraçã Rimshot - Trizone Ride e Midi Off note
+https://youtube.com/shorts/sp2UuVqdgNQ
+
 **Open-source firmware** para bateria eletrônica DIY / for DIY electronic drums.  
 Transforma piezos e sensores em sinais MIDI profissionais — converts piezo sensors into professional MIDI signals.  
 Menu completo em display LCD · Full LCD menu · Auto-calibration · Multi-zone cymbals.
