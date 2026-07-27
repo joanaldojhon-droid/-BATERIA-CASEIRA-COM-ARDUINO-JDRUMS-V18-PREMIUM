@@ -1,4 +1,4 @@
-# 🥁 J-DRUMS v8.0.19 V72 — Arduino Mega 2560 MIDI Drum Controller
+# 🥁 J-DRUMS v8.0.19 V76.9.6 — Arduino Mega 2560 MIDI Drum Controller
 
 Desmostração Rimshot - Trizone Ride e Midi Off note / Rimshot Demonstration - Trizone Ride and Midi Off Note
 https://youtube.com/shorts/sp2UuVqdgNQ
@@ -54,9 +54,9 @@ Código completo + Manual ilustrado HTML passo a passo / Full source code + illu
 
 🔗 [Download — MediaFire](https://www.mediafire.com/folder/are76n6h5zycm/CODIGO+JDRUMS+5.0)
 
+ 🥁 Apoie o Desenvolvedor com uma doação de qualquer valor Pix: d194052e-c2cc-43d9-9710-a4ab9b8bbc2b  
+
 ---
-
-
 
 MIT License — livre para usar, modificar e distribuir / free to use, modify and distribute.
 
