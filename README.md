@@ -1,4 +1,4 @@
-# 🥁 J-DRUMS V8.6 — Arduino Mega 2560 MIDI Drum Controller
+# 🥁 J-DRUMS V10 — Arduino Mega 2560 MIDI Drum Controller
 
 Desmostração Rimshot - Trizone Ride e Midi Off note / Rimshot Demonstration - Trizone Ride and Midi Off Note
 https://youtube.com/shorts/sp2UuVqdgNQ
