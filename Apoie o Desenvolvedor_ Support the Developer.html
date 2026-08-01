@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JDrums - Download</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 40px 16px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    max-width: 560px;
+    width: 100%;
+    background: #ffffff0d;
+    border: 1px solid #ffffff22;
+    border-radius: 18px;
+    padding: 32px;
+    backdrop-filter: blur(6px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 24px;
+    color: #ffd166;
+  }
+
+  .section {
+    margin-bottom: 22px;
+  }
+
+  .label {
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 1.05rem;
+  }
+
+  .desc {
+    font-size: 0.92rem;
+    color: #cfcfcf;
+    margin-bottom: 12px;
+    line-height: 1.4;
+  }
+
+  .btn {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 14px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    border: none;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    transform: translateY(-2px);
+  }
+
+  .btn-download {
+    background: #4361ee;
+    color: #fff;
+    box-shadow: 0 4px 14px rgba(67,97,238,0.5);
+  }
+
+  .btn-mediafire {
+    background: #2ec4b6;
+    color: #06171a;
+    box-shadow: 0 4px 14px rgba(46,196,182,0.5);
+  }
+
+  /* DESTAQUE PIX - cor viva chamativa */
+  .pix-box {
+    background: linear-gradient(135deg, #ff006e, #ff8500);
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 0 0 3px #ffffff33, 0 8px 30px rgba(255,0,110,0.5);
+    animation: pulse 2.2s infinite;
+  }
+
+  @keyframes pulse {
+    0%   { box-shadow: 0 0 0 3px #ffffff33, 0 8px 30px rgba(255,0,110,0.5); }
+    50%  { box-shadow: 0 0 0 3px #ffffff55, 0 8px 40px rgba(255,133,0,0.7); }
+    100% { box-shadow: 0 0 0 3px #ffffff33, 0 8px 30px rgba(255,0,110,0.5); }
+  }
+
+  .pix-title {
+    font-size: 1.15rem;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 6px;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.3);
+  }
+
+  .pix-sub {
+    text-align: center;
+    color: #fff2f2;
+    font-size: 0.9rem;
+    margin-bottom: 16px;
+  }
+
+  .pix-key-row {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background: #ffffffee;
+    border-radius: 10px;
+    padding: 10px 12px;
+  }
+
+  .pix-key {
+    flex: 1;
+    font-family: 'Courier New', monospace;
+    font-size: 0.85rem;
+    color: #222;
+    word-break: break-all;
+  }
+
+  .copy-btn {
+    flex-shrink: 0;
+    background: #06171a;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: background 0.15s ease, transform 0.15s ease;
+  }
+
+  .copy-btn:hover {
+    background: #ff006e;
+    transform: translateY(-1px);
+  }
+
+  .copy-btn.copied {
+    background: #2ec4b6;
+    color: #06171a;
+  }
+
+  .footer-note {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #999;
+    margin-top: 24px;
+  }
+
+  .lang-divider {
+    max-width: 560px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 36px 0;
+    color: #ffd166;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+  }
+
+  .lang-divider img {
+    width: 26px;
+    height: 18px;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px #ffffff33;
+    object-fit: cover;
+  }
+
+  .lang-divider::before,
+  .lang-divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #ffffff33;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+</style>
+</head>
+<body>
+
+<div class="wrapper">
+
+  <div class="lang-divider"><img src="https://flagcdn.com/w40/br.png" alt="Brasil"> VERSÃO EM PORTUGUÊS</div>
+
+  <div class="card">
+    <h1>📦 Download</h1>
+
+    <div class="section">
+      <div class="label">⬇️ Código completo + Manual ilustrado</div>
+      <div class="desc">HTML passo a passo / Full source code + illustrated HTML manual step by step.</div>
+      <div class="desc">Joanaldo Jhon Leonez de Melo — Banco Nubank</div>
+    </div>
+
+    <div class="section">
+      <div class="label">🔗 Download</div>
+      <a href="https://www.mediafire.com/folder/are76n6h5zycm/CODIGO_JDRUMS_8.6" target="_blank" rel="noopener noreferrer" class="btn btn-mediafire">MediaFire</a>
+    </div>
+
+    <div class="section pix-box">
+      <div class="pix-title">🥁 Apoie o Desenvolvedor</div>
+      <div class="pix-sub">Faça uma doação de qualquer valor via Pix</div>
+      <div class="pix-key-row">
+        <span class="pix-key" id="pixKey">d194052e-c2cc-43d9-9710-a4ab9b8bbc2b</span>
+        <button class="copy-btn" id="copyBtn" onclick="copyPix()">Copiar</button>
+      </div>
+    </div>
+
+    <div class="footer-note">JDrums &copy; — Obrigado pelo apoio!</div>
+  </div>
+
+  <div class="lang-divider"><img src="https://flagcdn.com/w40/us.png" alt="USA"> ENGLISH VERSION</div>
+
+  <div class="card">
+    <h1>📦 Download</h1>
+
+    <div class="section">
+      <div class="label">⬇️ Full source code + illustrated manual</div>
+      <div class="desc">HTML step by step / Código completo + manual ilustrado em HTML.</div>
+      <div class="desc">Joanaldo Jhon Leonez de Melo — Nubank Bank</div>
+    </div>
+
+    <div class="section">
+      <div class="label">🔗 Download</div>
+      <a href="https://www.mediafire.com/folder/are76n6h5zycm/CODIGO_JDRUMS_8.6" target="_blank" rel="noopener noreferrer" class="btn btn-mediafire">MediaFire</a>
+    </div>
+
+    <div class="section pix-box">
+      <div class="pix-title">🥁 Support the Developer</div>
+      <div class="pix-sub">Make a donation of any amount via Pix (Brazil)</div>
+      <div class="pix-key-row">
+        <span class="pix-key" id="pixKeyEn">d194052e-c2cc-43d9-9710-a4ab9b8bbc2b</span>
+        <button class="copy-btn" id="copyBtnEn" onclick="copyPixEn()">Copy</button>
+      </div>
+    </div>
+
+    <div class="footer-note">JDrums &copy; — Thank you for your support!</div>
+  </div>
+
+</div>
+
+<script>
+function copyGeneric(keyId, btnId, copiedLabel, defaultLabel) {
+  const key = document.getElementById(keyId).textContent;
+  const btn = document.getElementById(btnId);
+
+  function done() {
+    btn.textContent = copiedLabel;
+    btn.classList.add('copied');
+    setTimeout(() => {
+      btn.textContent = defaultLabel;
+      btn.classList.remove('copied');
+    }, 1800);
+  }
+
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(key).then(done).catch(fallbackCopy);
+  } else {
+    fallbackCopy();
+  }
+
+  function fallbackCopy() {
+    const temp = document.createElement('textarea');
+    temp.value = key;
+    document.body.appendChild(temp);
+    temp.select();
+    document.execCommand('copy');
+    document.body.removeChild(temp);
+    done();
+  }
+}
+
+function copyPix() {
+  copyGeneric('pixKey', 'copyBtn', '✅ Copiado!', 'Copiar');
+}
+
+function copyPixEn() {
+  copyGeneric('pixKeyEn', 'copyBtnEn', '✅ Copied!', 'Copy');
+}
+</script>
+
+</body>
+</html>
