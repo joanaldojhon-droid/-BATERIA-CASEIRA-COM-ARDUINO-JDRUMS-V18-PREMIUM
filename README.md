@@ -59,9 +59,7 @@ Código completo + Manual ilustrado HTML passo a passo / Full source code + illu
 ---
 
 MIT License — livre para usar, modificar e distribuir / free to use, modify and distribute.
-
 ---
-
 *Agradeço a Deus por me proporcionar esse projeto maravilhoso. 🙏*  
 *I thank God for inspiring this amazing project.*  
 **Developed by Joanaldo Jhon Leonez de Melo · © 2026**
