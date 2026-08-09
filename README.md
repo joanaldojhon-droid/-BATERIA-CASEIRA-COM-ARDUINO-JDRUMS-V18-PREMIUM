@@ -32,32 +32,25 @@ Menu completo em display LCD · Full LCD menu · Auto-calibration · Multi-zone 
 - 💡 **Full LCD Menu** — encoder + luz ajustável / adjustable backlight
 - 🔀 **InvSensor** — TCRT5000 manual ou módulo LM393 pronto / ready-made
 
+- 🥁 Testado e Aprovado por uma Comunidade de Bateristas
+O J-DRUMS foi desenvolvido e testado dentro de um grupo com mais de 54 membros, entre eles vários músicos profissionais, bateristas e percussionistas com anos de experiência, que testaram o módulo em baterias acústicas convertidas para eletrônicas e o utilizam na prática. O nível de refinamento alcançado — filtros de rimshot e crosstalk funcionando com precisão, resposta consistente em toques rápidos, sem falso disparo entre pads — chega a superar o desempenho e a quantidade de funções de vários módulos de entrada disponíveis no mercado, mesmo sendo construído sobre um Arduino Mega 2560. O resultado se aproxima do nível de módulos profissionais de ponta, como o TD-27 (Roland) e similares.
+🥁 Tested and Approved by a Community of Drummers
+🔊 Listen
+J-DRUMS was developed and tested within a group of over 54 members, including several professional musicians, drummers, and percussionists with years of experience, who tested the module on acoustic kits converted to electronic and use it in real practice. The level of refinement achieved — rimshot and crosstalk filters working with precision, consistent response on fast strokes, no false triggering between pads — even surpasses the performance and feature count of several entry-level modules available on the market, despite being built on an Arduino Mega 2560. The result gets close to the level of top-tier professional modules, such as Roland's TD-27 and similar.
 ---
-
 ## 🎮 Compatible with / Compatível com
-
 **DAWs:** Ableton · Reaper · FL Studio · Pro Tools · ASIO/ASIO4ALL  
 **VSTs:** Superior Drummer · EZdrummer · Addictive Drums · any MIDI VST
-
 ---
-
 ## 🛠️ Hardware
-
 Arduino Mega 2560 · Piezo sensors · TCRT5000 · LCD 16×2 · Rotary encoder  
 Expansão opcional / Optional expansion: Pro Micro ou Leonardo
-
 ---
-
 ## 📦 Download
-
 Código completo + Manual ilustrado HTML passo a passo / Full source code + illustrated HTML manual step by step.
-
 🔗 [Download — MediaFire](https://www.mediafire.com/folder/are76n6h5zycm/CODIGO+JDRUMS+5.0)
-
  🥁 Apoie o Desenvolvedor com uma doação de qualquer valor Pix: d194052e-c2cc-43d9-9710-a4ab9b8bbc2b  
-
 ---
-
 MIT License — livre para usar, modificar e distribuir / free to use, modify and distribute.
 ---
 *Agradeço a Deus por me proporcionar esse projeto maravilhoso. 🙏*  
