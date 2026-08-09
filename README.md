@@ -65,4 +65,4 @@ MIT License — livre para usar, modificar e distribuir / free to use, modify an
 ---
 *Agradeço a Deus por me proporcionar esse projeto maravilhoso. 🙏*  
 *I thank God for inspiring this amazing project.*  
-**Developed by Joanaldo Jhon Leonez de Melo · © 2026 **
+**Developed by Joanaldo Jhon Leonez de Melo · © 2026 *
