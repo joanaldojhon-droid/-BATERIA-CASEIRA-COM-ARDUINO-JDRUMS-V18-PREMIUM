@@ -34,6 +34,7 @@ Menu completo em display LCD · Full LCD menu · Auto-calibration · Multi-zone 
 
 - 🥁 Testado e Aprovado por uma Comunidade de Bateristas
 O J-DRUMS foi desenvolvido e testado dentro de um grupo com mais de 54 membros, entre eles vários músicos profissionais, bateristas e percussionistas com anos de experiência, que testaram o módulo em baterias acústicas convertidas para eletrônicas e o utilizam na prática. O nível de refinamento alcançado — filtros de rimshot e crosstalk funcionando com precisão, resposta consistente em toques rápidos, sem falso disparo entre pads — chega a superar o desempenho e a quantidade de funções de vários módulos de entrada disponíveis no mercado, mesmo sendo construído sobre um Arduino Mega 2560. O resultado se aproxima do nível de módulos profissionais de ponta, como o TD-27 (Roland) e similares.
+
 -🥁 Tested and Approved by a Community of Drummers
 J-DRUMS was developed and tested within a group of over 54 members, including several professional musicians, drummers, and percussionists with years of experience, who tested the module on acoustic kits converted to electronic and use it in real practice. The level of refinement achieved — rimshot and crosstalk filters working with precision, consistent response on fast strokes, no false triggering between pads — even surpasses the performance and feature count of several entry-level modules available on the market, despite being built on an Arduino Mega 2560. The result gets close to the level of top-tier professional modules, such as Roland's TD-27 and similar.
 ---
