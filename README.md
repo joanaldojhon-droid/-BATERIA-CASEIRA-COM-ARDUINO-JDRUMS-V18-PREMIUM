@@ -52,7 +52,7 @@ O J-DRUMS foi desenvolvido e testado dentro de um grupo com mais de 54 membros, 
 -🥁 Tested and Approved by a Community of Drummers
 J-DRUMS was developed and tested within a group of over 54 members, including several professional musicians, drummers, and percussionists with years of experience, who tested the module on acoustic kits converted to electronic and use it in real practice. The level of refinement achieved — rimshot and crosstalk filters working with precision, consistent response on fast strokes, no false triggering between pads — even surpasses the performance and feature count of several entry-level modules available on the market, despite being built on an Arduino Mega 2560. The result gets close to the level of top-tier professional modules, such as Roland's TD-27 and similar.
 ---
-## 🎮 Compatible with / Compatível com
+## 🎮 Compatible with / Compatível com.
 **DAWs:** Ableton · Reaper · FL Studio · Pro Tools · ASIO/ASIO4ALL  
 **VSTs:** Superior Drummer · EZdrummer · Addictive Drums · any MIDI VST
 ---
