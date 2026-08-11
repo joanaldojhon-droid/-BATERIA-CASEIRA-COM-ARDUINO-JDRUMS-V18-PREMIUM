@@ -1,8 +1,8 @@
 # 🥁 J-DRUMS V12 — Arduino Mega 2560 MIDI Drum Controller
 Código finalizado após mais de um ano de desenvolvimento e testes intensivos em bateria acústica convertida e baterias caseiras feitas de PVC e outros materiais, com músicos profissionais, bateristas e percussionistas com anos de
-experiência, que aprovaram o J-DRUMS em comparação a módulos profissionais como Roland TD 27.
+experiência, que aprovaram o J-DRUMS.
 
-Code finalized after more than a year of development and intensive testing on converted acoustic drum kits and homemade drums made of PVC and other materials, with professional musicians, drummers, and percussionists with years of experience, who approved J-DRUMS compared to professional modules like the Roland TD 27.
+Code finalized after more than a year of development and intensive testing on converted acoustic drum kits and homemade drums made of PVC and other materials, with professional musicians, drummers, and percussionists with years of experience, who approved J-DRUMS.
 
 Desmostração Rimshot - Trizone Ride e Midi Off note / Rimshot Demonstration - Trizone Ride and Midi Off Note
 https://youtube.com/shorts/sp2UuVqdgNQ
