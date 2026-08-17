@@ -1,4 +1,4 @@
-# 🥁 J-DRUMS V14 — Arduino Mega 2560 MIDI Drum Controller
+# 🥁 J-DRUMS V18 PREMIUM — Arduino Mega 2560 MIDI Drum Controller
 Código finalizado após mais de um ano de desenvolvimento e testes intensivos em bateria acústica convertida e baterias caseiras feitas de PVC e outros materiais, com músicos profissionais, bateristas e percussionistas com anos de
 experiência, que aprovaram o J-DRUMS.
 
